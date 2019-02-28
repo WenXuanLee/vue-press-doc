@@ -1,0 +1,25 @@
+{
+  "name": "fedoc",
+  "version": "1.0.0",
+  "description": "Create FE doc with Vue press",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "try": "node script.js"
+  },
+  "keywords": [
+    "Vue",
+    "Press",
+    "Front-end"
+  ],
+  "author": "Ben",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^0.14.9"
+  },
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  }
+}
